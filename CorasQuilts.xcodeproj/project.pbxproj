@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D11E49E1C5F13B000E98257 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2D11E49D1C5F13B000E98257 /* Podfile */; };
 		2DCBCC841C5F0F0D0066FF3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBCC831C5F0F0D0066FF3F /* AppDelegate.swift */; };
 		2DCBCC861C5F0F0D0066FF3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBCC851C5F0F0D0066FF3F /* ViewController.swift */; };
 		2DCBCC891C5F0F0D0066FF3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBCC871C5F0F0D0066FF3F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D11E49D1C5F13B000E98257 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		2DCBCC801C5F0F0D0066FF3F /* CorasQuilts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorasQuilts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCBCC831C5F0F0D0066FF3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DCBCC851C5F0F0D0066FF3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			children = (
 				2DCBCC821C5F0F0D0066FF3F /* CorasQuilts */,
 				2DCBCC811C5F0F0D0066FF3F /* Products */,
+				2D11E49D1C5F13B000E98257 /* Podfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +154,7 @@
 			files = (
 				2DCBCC911C5F0F0D0066FF3F /* LaunchScreen.storyboard in Resources */,
 				2DCBCC8E1C5F0F0D0066FF3F /* Assets.xcassets in Resources */,
+				2D11E49E1C5F13B000E98257 /* Podfile in Resources */,
 				2DCBCC891C5F0F0D0066FF3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +316,7 @@
 				2DCBCC971C5F0F0D0066FF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
