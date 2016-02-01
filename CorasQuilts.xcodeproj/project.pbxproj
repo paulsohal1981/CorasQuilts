@@ -56,15 +56,39 @@
 		2DCBCC821C5F0F0D0066FF3F /* CorasQuilts */ = {
 			isa = PBXGroup;
 			children = (
-				2DCBCC831C5F0F0D0066FF3F /* AppDelegate.swift */,
-				2DCBCC851C5F0F0D0066FF3F /* ViewController.swift */,
-				2DCBCC871C5F0F0D0066FF3F /* Main.storyboard */,
 				2DCBCC8D1C5F0F0D0066FF3F /* Assets.xcassets */,
-				2DCBCC8F1C5F0F0D0066FF3F /* LaunchScreen.storyboard */,
+				2DCBCC9A1C5F0F2E0066FF3F /* Views */,
+				2DCBCC991C5F0F260066FF3F /* Controllers */,
+				2DCBCC981C5F0F170066FF3F /* Model */,
+				2DCBCC831C5F0F0D0066FF3F /* AppDelegate.swift */,
 				2DCBCC921C5F0F0D0066FF3F /* Info.plist */,
-				2DCBCC8A1C5F0F0D0066FF3F /* CorasQuilts.xcdatamodeld */,
 			);
 			path = CorasQuilts;
+			sourceTree = "<group>";
+		};
+		2DCBCC981C5F0F170066FF3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBCC8A1C5F0F0D0066FF3F /* CorasQuilts.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2DCBCC991C5F0F260066FF3F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBCC851C5F0F0D0066FF3F /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2DCBCC9A1C5F0F2E0066FF3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBCC8F1C5F0F0D0066FF3F /* LaunchScreen.storyboard */,
+				2DCBCC871C5F0F0D0066FF3F /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
