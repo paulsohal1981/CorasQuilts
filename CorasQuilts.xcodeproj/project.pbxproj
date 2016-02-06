@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2D11E49E1C5F13B000E98257 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2D11E49D1C5F13B000E98257 /* Podfile */; };
+		2D12F0F41C66B608004F8DF1 /* OldStandard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D12F0F31C66B608004F8DF1 /* OldStandard-Regular.ttf */; };
+		2DAC447B1C663A87006C3E08 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC447A1C663A87006C3E08 /* MainViewController.swift */; };
 		2DCBCC841C5F0F0D0066FF3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBCC831C5F0F0D0066FF3F /* AppDelegate.swift */; };
-		2DCBCC861C5F0F0D0066FF3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBCC851C5F0F0D0066FF3F /* ViewController.swift */; };
 		2DCBCC891C5F0F0D0066FF3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBCC871C5F0F0D0066FF3F /* Main.storyboard */; };
 		2DCBCC8C1C5F0F0D0066FF3F /* CorasQuilts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBCC8A1C5F0F0D0066FF3F /* CorasQuilts.xcdatamodeld */; };
 		2DCBCC8E1C5F0F0D0066FF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBCC8D1C5F0F0D0066FF3F /* Assets.xcassets */; };
 		2DCBCC911C5F0F0D0066FF3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBCC8F1C5F0F0D0066FF3F /* LaunchScreen.storyboard */; };
-		2DFBB85E1C5F1D970084040B /* OldStandard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DFBB85D1C5F1D970084040B /* OldStandard-Regular.ttf */; };
 		FC966DD395BA7FFFEA9BA98C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EDE77D07F17A43022B9375 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D11E49D1C5F13B000E98257 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		2D11E49D1C5F13B000E98257 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D12F0F31C66B608004F8DF1 /* OldStandard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandard-Regular.ttf"; sourceTree = "<group>"; };
+		2DAC447A1C663A87006C3E08 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2DCBCC801C5F0F0D0066FF3F /* CorasQuilts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorasQuilts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCBCC831C5F0F0D0066FF3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DCBCC851C5F0F0D0066FF3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DCBCC881C5F0F0D0066FF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DCBCC8B1C5F0F0D0066FF3F /* CorasQuilts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CorasQuilts.xcdatamodel; sourceTree = "<group>"; };
 		2DCBCC8D1C5F0F0D0066FF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCBCC901C5F0F0D0066FF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DCBCC921C5F0F0D0066FF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DFBB85D1C5F1D970084040B /* OldStandard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandard-Regular.ttf"; sourceTree = "<group>"; };
 		2F828B717A599BE6E90C31C0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B3213A328D9B7D298BBB0962 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B5EDE77D07F17A43022B9375 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +68,7 @@
 		2DCBCC821C5F0F0D0066FF3F /* CorasQuilts */ = {
 			isa = PBXGroup;
 			children = (
+				2DFBB85F1C5F1F400084040B /* Utilities */,
 				2DFBB85C1C5F1D700084040B /* Assets */,
 				2DCBCC8D1C5F0F0D0066FF3F /* Assets.xcassets */,
 				2DCBCC9A1C5F0F2E0066FF3F /* Views */,
@@ -90,7 +91,7 @@
 		2DCBCC991C5F0F260066FF3F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2DCBCC851C5F0F0D0066FF3F /* ViewController.swift */,
+				2DAC447A1C663A87006C3E08 /* MainViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -107,9 +108,16 @@
 		2DFBB85C1C5F1D700084040B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				2DFBB85D1C5F1D970084040B /* OldStandard-Regular.ttf */,
+				2D12F0F31C66B608004F8DF1 /* OldStandard-Regular.ttf */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		2DFBB85F1C5F1F400084040B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		8DDE2149E868A556C26630F1 /* Pods */ = {
@@ -193,7 +201,7 @@
 				2DCBCC911C5F0F0D0066FF3F /* LaunchScreen.storyboard in Resources */,
 				2DCBCC8E1C5F0F0D0066FF3F /* Assets.xcassets in Resources */,
 				2D11E49E1C5F13B000E98257 /* Podfile in Resources */,
-				2DFBB85E1C5F1D970084040B /* OldStandard-Regular.ttf in Resources */,
+				2D12F0F41C66B608004F8DF1 /* OldStandard-Regular.ttf in Resources */,
 				2DCBCC891C5F0F0D0066FF3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAC447B1C663A87006C3E08 /* MainViewController.swift in Sources */,
 				2DCBCC8C1C5F0F0D0066FF3F /* CorasQuilts.xcdatamodeld in Sources */,
-				2DCBCC861C5F0F0D0066FF3F /* ViewController.swift in Sources */,
 				2DCBCC841C5F0F0D0066FF3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
